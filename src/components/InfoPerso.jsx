@@ -1,7 +1,7 @@
 function InfoPerso() {
   return (
     <section className="entete">
-      <img src="photo.jpeg" alt="Ma photo" className="photo" />
+      <img src={import.meta.env.BASE_URL + "photo.jpeg"} alt="Ma photo" className="photo" />
       <div>
         <h1>Oumou Kalsoum Wade</h1>
         <p className="titre">Étudiante en L2 génie logiciel</p>
